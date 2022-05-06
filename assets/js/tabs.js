@@ -12,6 +12,9 @@ const MyTabs = () => {
             let svg = c.querySelector('.tab-title-js i');
             hidden.style.height = "0px"
             function openItems(e) {
+
+
+
                 if (!hidden.classList.contains("is-active")) {
                     title.classList.add("is-active")
                     hidden.classList.add("is-active")

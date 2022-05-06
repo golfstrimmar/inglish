@@ -93,6 +93,25 @@ img[data-src] {
   left: 0;
 }
 
+
+.copy {
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  margin: 1px 0;
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.copy_active {
+  background: #a2a2ea;
+  color: #ff9999;
+}
+
+
+
+
+
 @media (min-width: 1000px) and (max-width: 1199px) {
   body {
     font-size: 15px;
@@ -119,12 +138,6 @@ img[data-src] {
   }
 }
 
-
-
-/*===============================*/
-.test {
-  fill: #ff9999;
-}
 
 
 
