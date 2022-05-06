@@ -29,4 +29,11 @@ const myCopy = () => {
     });
 
 }
-myCopy();
+
+document.addEventListener("DOMContentLoaded", function () {
+  const copy = document.querySelectorAll(".copy");
+  if (copy.length > 0) {
+   myCopy();
+  }
+});
+   
